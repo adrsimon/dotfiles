@@ -10,6 +10,5 @@ vim.keymap.set("n", "<leader>l", ":Lazy<CR>")
 vim.keymap.set("n", "<leader>s", ":w<CR>")
 
 vim.cmd("set number")
-
-
+vim.cmd("set rnu")
 
