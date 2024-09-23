@@ -1,0 +1,17 @@
+layout {
+  pane split_direction="vertical" {
+    pane size="70%" split_direction="horizontal" {
+      pane size="70%"
+      pane split_direction="vertical" {
+        pane
+        pane
+      }
+    }
+    pane split_direction="horizontal" {
+      pane size="60%" command="git" {
+        args "log" "--all" "--tags" "--oneline" "--graph"
+      }
+      pane
+    }
+  }
+}
